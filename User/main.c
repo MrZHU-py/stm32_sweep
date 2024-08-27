@@ -23,23 +23,26 @@ int main(void)
 	robot_Init();              // 机器人初始化
 	while(Key_GetNum() == 0);  //等待按键按下
 	while (1)
-	{
-		distance =  UltrasonicWave_StartMeasure();
-		printf("测到的距离值为：%d\r\n",distance);
+    {
+        distance = UltrasonicWave_StartMeasure();
+        printf("测到的距离值为：%d\r\n", distance);
 
-			if(distance<40)
-      {
-				Buzzer_OFF();
-				makerobo_back(70,500);
-				makerobo_Right(70,500);
-				distance =  UltrasonicWave_StartMeasure();
-			}
-			else
-			{
-				makerobo_run(70,1);
-				Buzzer_ON();
-				
-			}
-	}
-	 
+        if (distance < 20)  // 距离小于20cm
+        {
+            Buzzer_OFF();
+            makerobo_stop();       // 停止
+            makerobo_back(50, 500); // 缓慢后退
+            makerobo_Right(50, 500); // 缓慢右转避障
+        }
+        else if (distance < 40)  // 距离在20cm到40cm之间
+        {
+            Buzzer_ON();
+            makerobo_run(30, 1);  // 低速前进
+        }
+        else  // 距离大于40cm
+        {
+            Buzzer_ON();
+            makerobo_run(50, 1);  // 中速前进
+        }
+    }
 }
