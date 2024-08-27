@@ -12,7 +12,7 @@ void robot_speed(uint8_t left1_speed,uint8_t left2_speed,uint8_t right1_speed,ui
 {	
 	    TIM_SetCompare1(TIM4,left1_speed);
       TIM_SetCompare2(TIM4,left2_speed);
-      TIM_SetCompare3(TIM4,right1_speed);
+      TIM_SetCompare3(TIM4,right1_speed);   
       TIM_SetCompare4(TIM4,right2_speed);
 }
 
