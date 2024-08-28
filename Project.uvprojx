@@ -778,6 +778,26 @@
               <FileType>5</FileType>
               <FilePath>.\Hardware\Buzzer.h</FilePath>
             </File>
+            <File>
+              <FileName>Astar.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Astar.c</FilePath>
+            </File>
+            <File>
+              <FileName>Astar.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Astar.h</FilePath>
+            </File>
+            <File>
+              <FileName>Coverage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Coverage.c</FilePath>
+            </File>
+            <File>
+              <FileName>Coverage.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Coverage.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -814,5 +834,14 @@
     <components/>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>Project</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>

@@ -1117,7 +1117,18 @@ I (.\Library\stm32f10x_usart.h)(0x66CC64C7)
 I (.\Library\stm32f10x_wwdg.h)(0x66CC64C9)
 I (.\Library\misc.h)(0x66CC64BB)
 F (.\Hardware\Buzzer.h)(0x66CC64B3)()
-F (.\User\main.c)(0x66CDD21A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware --no-multibyte-chars-IC:\Users\Mr.Zhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\Hardware\Astar.c)(0x66CE81E4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware --no-multibyte-chars-IC:\Users\Mr.Zhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\astar.o --omf_browse .\objects\astar.crf --depend .\objects\astar.d)
+I (Hardware\Astar.h)(0x66CE81E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+F (.\Hardware\Astar.h)(0x66CE81E4)()
+F (.\Hardware\Coverage.c)(0x66CE81C2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware --no-multibyte-chars-IC:\Users\Mr.Zhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\coverage.o --omf_browse .\objects\coverage.crf --depend .\objects\coverage.d)
+I (Hardware\Coverage.h)(0x66CE81BE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+F (.\Hardware\Coverage.h)(0x66CE81BE)()
+F (.\User\main.c)(0x66CE81D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware --no-multibyte-chars-IC:\Users\Mr.Zhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Start\stm32f10x.h)(0x66CC64F7)
 I (.\Start\core_cm3.h)(0x66CC64F4)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1155,6 +1166,10 @@ I (.\Hardware\Serial.h)(0x66CC64B9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (.\Hardware\timer.h)(0x66CC96A6)
 I (.\Hardware\Buzzer.h)(0x66CC64B3)
+I (.\Hardware\Astar.h)(0x66CE81E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
+I (.\Hardware\Coverage.h)(0x66CE81BE)
 F (.\User\stm32f10x_conf.h)(0x66CC64F8)()
 F (.\User\stm32f10x_it.c)(0x66CC64F8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware --no-multibyte-chars-IC:\Users\Mr.Zhu\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (User\stm32f10x_it.h)(0x66CC64F9)
